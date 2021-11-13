@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Resultater {
 
-    //Opg. 2.1: Printer antallet af gennemførte prøver.
+    //Opg. 2.1: Printer antallet af gennemførte tests.
     public int udsAntalTests(Elev navn) throws IOException {
 
         BufferedReader laes = new BufferedReader(new FileReader(navn.getNavn()+".txt"));
