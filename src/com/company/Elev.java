@@ -59,7 +59,7 @@ public class Elev {
         }
     }
 
-    //Indlæser prøvenummer fra fil.
+    //Indlæser tests fra fil.
     public void indlaesTests(Elev[] elev,File fil) throws IOException {
 
         Scanner ind = new Scanner(fil);

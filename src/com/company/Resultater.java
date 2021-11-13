@@ -19,7 +19,7 @@ public class Resultater {
         return testAntal;
     }
 
-    //Opg. 2.2: Printer antal af samlet prøve antal.
+    //Opg. 2.2: Printer antal af samlet test antal.
     public void udskrivAntOpg(Elev[] elev, int antalTests, File fil) throws FileNotFoundException {
 
         Scanner ud = new Scanner(fil);

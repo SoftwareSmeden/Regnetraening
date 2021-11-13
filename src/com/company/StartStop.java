@@ -52,13 +52,13 @@ public class StartStop {
         restart(elevTest);
     }
 
-    //Her kan elev bede om en ny prøve eller se deres resultater.
+    //Her kan elev bede om en ny test eller se deres resultater.
     public void tjekElev(Elev[] elevIGang,Testen elevTest, Resultater elevRes, Elev eleven, int testAntal, File fil) throws IOException {
 
         Scanner input = new Scanner(System.in);
         StartStop kør = new StartStop();
 
-        System.out.println("Vil du tage en prøve eller tjekke resultater?");
+        System.out.println("Vil du tage en test eller tjekke resultater?");
         System.out.println("Tryk 1 for test");
         System.out.println("Tryk 2 for resultater");
         System.out.println("Tryk 3 for en bestemt regneart og procent, afslut med 'enter'!");
